@@ -9,7 +9,7 @@
     text-align: center;
 }
 #formulario{
-    border: 3x solid coral;
+    border: 3px solid coral;
     width: 40%;
     margin: auto;
     display: grid;
