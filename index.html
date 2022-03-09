@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styles.css">
-    <script src="/styles.css"></script>
+    <script src="/JS/programa.js"></script>
     <title>Proyecto web 2</title>
 
 </head>
 <body>
     <div id="principal">
-        <p id="titulo" onclick="cambiarcolor()"onmouseover="cambiarcolor()"onmouseover="restablecercolor()">P Impares</p>
+        <p id="titulo" onclick="cambiarcolor()"onmouseover="cambiarcolor()"onmouseover="restablecercolor()">Pares e Impares</p>
+        <div id="formulario">
+            <div><p>Ingrese un numero de 4 digitos.</p></div>
+            <div><input type="text" id="numero40">></div>
+            <div><button id="obtener"onclick="obtenerpareseimpares();">obtener pares e impares</button></div>
+            <div><input type="text"id="pares"value="total pares"></div>
+            <div><input type="text"id="impares"value="total impares"></div>
+            <div><input type="text"id="ceros"value="total ceros"></div>
+
+        </div>
     </div>
 </body>
 </html>

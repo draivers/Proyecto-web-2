@@ -8,3 +8,11 @@
     font-size: 20px;
     text-align: center;
 }
+#formulario{
+    border: 3x solid coral;
+    width: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto auto auto auto auto auto auto;
+}
